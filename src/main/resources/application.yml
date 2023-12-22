@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+kyle-db-router:
+  jdbc:
+    datasource:
+      dbcount: 2
+      tbcount: 4
+      default: db00
+      routerKey: uId
+      list : db01 db02
+      db00: ...
